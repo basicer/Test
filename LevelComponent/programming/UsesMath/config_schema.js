@@ -1,0 +1,92 @@
+{
+    "default": {
+        "programmableMathProperties": [
+            "pow",
+            "sqrt",
+            "sin",
+            "cos",
+            "tan",
+            "atan2",
+            "PI",
+            "random",
+            "abs",
+            "floor",
+            "ceil",
+            "round",
+            "min",
+            "max"
+        ]
+    },
+    "type": "object",
+    "additionalProperties": false,
+    "id": "__base__",
+    "properties": {
+        "programmableMathProperties": {
+            "default": [
+                "pow",
+                "sqrt",
+                "sin",
+                "cos",
+                "tan",
+                "atan2",
+                "PI",
+                "random",
+                "abs",
+                "floor",
+                "ceil",
+                "round",
+                "min",
+                "max"
+            ],
+            "items": {
+                "description": "Names of Math functions/properties which should be documented for Programmable methods.",
+                "enum": [
+                    "pow",
+                    "sqrt",
+                    "sin",
+                    "cos",
+                    "tan",
+                    "atan2",
+                    "PI",
+                    "random",
+                    "abs",
+                    "floor",
+                    "ceil",
+                    "round",
+                    "min",
+                    "max",
+                    "E",
+                    "LN10",
+                    "LN2",
+                    "LOG10E",
+                    "LOG2E",
+                    "SQRT1_2",
+                    "SQRT2",
+                    "acos",
+                    "acosh",
+                    "asin",
+                    "asinh",
+                    "atan",
+                    "atanh",
+                    "cbrt",
+                    "cosh",
+                    "exp",
+                    "expm1",
+                    "fround",
+                    "hypot",
+                    "imul",
+                    "log",
+                    "log10",
+                    "log1p",
+                    "log2",
+                    "sign",
+                    "sinh",
+                    "tanh",
+                    "trunc"
+                ],
+                "type": "string"
+            },
+            "type": "array"
+        }
+    }
+}
